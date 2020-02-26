@@ -32,3 +32,8 @@ Commands that are good to know:
         $ python manage.py createsuperuser
         create username & password
         Navigate to localhost:8000/admin
+
+Watch out for images
+adding images through admin page (for store products) does not read the images saved in static folder within store folder.
+Instead, it looks for the img in root path, in static/store.
+I don't know what it the reasn for it and I couldn't solve it. I just walked around the problem and added new paths in settings.py file
