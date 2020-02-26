@@ -1,1 +1,1 @@
-web: python manage.py $PORT
+web: gunicorn personal_portfolio.wsgi.application
