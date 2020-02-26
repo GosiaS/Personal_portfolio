@@ -1,6 +1,6 @@
 This page is heavily based on the tutorial from this page: https://realpython.com/get-started-with-django-1/#why-you-should-learn-django
 I changed little in the core code, and I kept using Bootstrap as per tutorial - I focused on django core code, not the page layout
-I added "my" page to the web, which is "store". It's not from any tutorial, but I was heavily inspired by uncle Google.
+I added "my" page to the web, which is "store". It's not from any tutorial really, but was heavily inspired by https://manascode.com/django-ecommerce-website-tutorial-part-one/
 
 Commands to make it work on local environement:
     $ source venv/bin/activate
